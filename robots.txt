@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zerooriginofficial-dotcom.github.io/Bura/sitemap.xml
