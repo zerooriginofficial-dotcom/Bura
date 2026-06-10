@@ -9,6 +9,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
+  .logo{
+font-size:34px;
+font-weight:600;
+color:#A8D5BA;
+position:relative;
+}
+
+.a-letter{
+position:relative;
+display:inline-block;
+}
+
+.a-letter::before{
+content:"🪶";
+position:absolute;
+top:-22px;
+left:50%;
+transform:translateX(-50%);
+font-size:18px;
+}
   .why{
 background:#F8FAF9;
 padding:100px 8%;
@@ -288,7 +308,9 @@ font-size:45px;
 <body>
 
 <header>
-<div class="logo">BURA<span>✦</span></div>
+<div class="logo">
+BUR<span class="a-letter">A</span>
+</div>
 
 <nav>
 <a href="#home">Home</a>
